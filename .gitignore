@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Java y Maven
+**/target/
+*.class
+*.jar
+*.war
+
+# Angular y Node
+**/node_modules/
+**/.angular/
+**/dist/
+npm-debug.log*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# Variables de entorno
+.env
+.env.*
+application-local.properties
+
+# Archivos temporales
+*.log
+*.tmp
