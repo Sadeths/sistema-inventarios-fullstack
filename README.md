@@ -201,14 +201,14 @@ createDatabaseIfNotExist=true
 En macOS o Linux, define las credenciales de MySQL con variables de entorno:
 
 ```bash
-export DB_USERNAME=root
-export DB_PASSWORD='TU_PASSWORD_DE_MYSQL'
+export SPRING_DATASOURCE_USERNAME=root
+export SPRING_DATASOURCE_PASSWORD='TU_PASSWORD_DE_MYSQL'
 ```
 
 También puedes personalizar la conexión completa:
 
 ```bash
-export DB_URL='jdbc:mysql://localhost:3306/inventario_db?createDatabaseIfNotExist=true'
+export SPRING_DATASOURCE_URL='jdbc:mysql://localhost:3306/inventario_db?createDatabaseIfNotExist=true'
 ```
 
 Las variables son utilizadas desde el archivo:
